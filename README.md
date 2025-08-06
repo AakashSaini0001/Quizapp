@@ -26,9 +26,7 @@ Users can select the number of questions and the type of quiz they want to attem
 
 ## 📸 Screenshots
 
-*(Add screenshots here if you have any)*
-
----
+<img width="1920" height="1080" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/4fe39a02-215d-4e64-a5b6-d2a21940f2fc" />
 
 ## 📂 How to Run Locally
 
