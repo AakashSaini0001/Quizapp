@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="setup-container">
+        <h2>Choose Your Quiz</h2>
+        <div class="form-group">
+            <label for="category">Category:</label>
+            <select id="category">
+                <option value="9">General Knowledge</option>
+                <option value="27">Animals</option>
+                <option value="28">Vehicles</option>
+                <option value="21">Sports</option>
+                <option value="15">Video Games</option>
+                <option value="18">Science: Computers</option>
+                </select>
+        </div>
+        <div class="form-group">
+            <label for="num-questions">Number of Questions:</label>
+            <input type="number" id="num-questions" value="10" min="5" max="20">
+        </div>
+        <button id="start-btn">Start Quiz</button>
+        <p id="error-message" class="hidden"></p>
+    </div>
+
+    <div class="container hidden" id="quiz-container">
+        <div class="quiz-header">
+            <h3 id="question-counter"></h3>
+            <h2 id="question">Loading Question...</h2>
+            <ul id="options-list">
+                </ul>
+        </div>
+        <div class="navigation-buttons">
+            <button id="prev-btn" class="nav-btn hidden">Previous</button>
+            <button id="next-btn" class="nav-btn">Next</button>
+            <button id="finish-btn" class="nav-btn hidden">Finish</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
